@@ -1,8 +1,9 @@
 # MIPS32
 
-Detailed Documentation for Verilog Code: MIPS32 Pipeline Processor
+MIPS32 Pipeline Processor
 
 Module Overview
+
 This Verilog code implements a 32-bit MIPS (Microprocessor without Interlocked Pipeline Stages) processor with a pipelined architecture. The module takes two clock inputs (`clk1` and `clk2`) and simulates the instruction fetch, decode, execute, memory, and write-back stages of the pipeline. It includes a variety of instructions such as arithmetic, logical, load, store, and branch instructions, along with a halt instruction to stop the processor.
 
 Module Inputs and Outputs
